@@ -5,7 +5,7 @@ import githubIcon from "../public/githubIcon.svg"
 
 const GitHubButton = () => {
   const [stars, setStarCount] = useState(null);
-  const repoUrl = `https://github.com/FOSSUChennai/Communities`;
+  const repoUrl = `https://github.com/FOSSUChennai/tamilnadu.lol`;
 
   useEffect(() => {
     fetchStars();
@@ -13,7 +13,7 @@ const GitHubButton = () => {
 
   const fetchStars = async () => {
     try {
-      const response = await fetch(`https://api.github.com/repos/FOSSUChennai/Communities`);
+      const response = await fetch(`https://api.github.com/repos/FOSSUChennai/tamilnadu.lol`);
       if (!response.ok) {
         throw new Error('Failed to fetch repository data');
       }
