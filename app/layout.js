@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -29,6 +30,11 @@ export default function RootLayout({ children }) {
       <head>
         {/* Coolvetica from CDN */}
         <link href="https://fonts.cdnfonts.com/css/coolvetica" rel="stylesheet" />
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id="c28faf8e-357e-47e6-91d3-5c32eaec9807"
+          strategy="afterInteractive"
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} antialiased`}
