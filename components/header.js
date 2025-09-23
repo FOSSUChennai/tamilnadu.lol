@@ -10,7 +10,6 @@ export default function Header() {
       </Link>
       <div className='flex h-full items-center space-x-4'>
         <GitHubButton />
-        
       </div>
     </nav>
   );
