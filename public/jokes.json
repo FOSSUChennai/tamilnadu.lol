@@ -1,79 +1,19 @@
 {
   "jokes": [
     {
-      "name": "Justin Benito",
-      "joke": "Yen da computer slow-ah iruku? Because it's taking a byte time!",
-      "category": "tech"
+      "name": "Deepa",
+      "joke": "Gundoosi evlo olliya iruku, apram yen ellorum adha gundoosi nu soldranga.. ",
+      "category": "mokka jokes"
     },
     {
-      "name": "Priya Sharma",
-      "joke": "Teacher: 'What's the Tamil word for attention?' Student: 'Kavalam sir!'",
-      "category": "school"
+      "name": "Deepa",
+      "joke": "While take-off we are calling Aeroplane, but while landing why we are not calling Erangoplane ?",
+      "category": "mokka jokes"
     },
     {
-      "name": "Karthik Raja",
-      "joke": "Appa: 'Son, nee enna panra?' Son: 'Nothing dad, just chillin' with my friends-ah!'",
-      "category": "family"
-    },
-    {
-      "name": "Divya Krishna",
-      "joke": "Friend: 'Dude, cinema ticket book panniya?' Me: 'Nope, but I booked myself some disappointment!'",
-      "category": "movies"
-    },
-    {
-      "name": "Arun Kumar",
-      "joke": "Wife: 'Honey, grocery shopping poganum' Husband: 'Seri darling, but remember our budget is on a diet too!'",
-      "category": "marriage"
-    },
-    {
-      "name": "Meera Lakshmi",
-      "joke": "Boss: 'Why are you late today?' Employee: 'Sir, traffic-la stuck aayiten... mentally!'",
-      "category": "work"
-    },
-    {
-      "name": "Suresh Babu",
-      "joke": "Mom: 'Sapadu ready, vaa!' Me from my room: 'Coming ma!' *continues scrolling*",
-      "category": "family"
-    },
-    {
-      "name": "Deepika Raj",
-      "joke": "Auto driver: 'Meter la pogalam' Passenger: 'Anna, that's the first joke of the day!'",
-      "category": "travel"
-    },
-    {
-      "name": "Vikram Patel",
-      "joke": "Student: 'Sir, assignment submit panna time extend pannunga' Professor: 'Time-ah extend panna mudiyum, but your marks-ah extend panna mudiyathu!'",
-      "category": "college"
-    },
-    {
-      "name": "Anitha Devi",
-      "joke": "Friend: 'Bro, gym join pannalama?' Me: 'Bro, first let me join my scattered life together!'",
-      "category": "fitness"
-    },
-    {
-      "name": "Ravi Chandran",
-      "joke": "Girlfriend: 'Naan beautiful-ah irukena?' Boyfriend: 'Baby, you're so beautiful, even my wallet runs away when it sees you!'",
-      "category": "romance"
-    },
-    {
-      "name": "Kavya Reddy",
-      "joke": "Cricket match-la India losing. Dad: 'Ithellam script-oda nadakuthu. WWE-la madhiri!'",
-      "category": "sports"
-    },
-    {
-      "name": "Muthu Selvam",
-      "joke": "Doctor: 'Daily exercise pannunga' Patient: 'Doctor, remote control press pannrathu exercise illaya?'",
-      "category": "health"
-    },
-    {
-      "name": "Shalini Thomas",
-      "joke": "Neighbor: 'Unga dog romba cute-ah iruku!' Me: 'Thank you! But that's my brother!'",
-      "category": "pets"
-    },
-    {
-      "name": "Ashwin Narayanan",
-      "joke": "Bank manager: 'Sir, unga account balance negative-la iruku' Customer: 'Sir, at least something is consistent in my life!'",
-      "category": "money"
+      "name": "Deepa",
+      "joke": "Paal podravan paalkaran, paper podravan paper karan, pichai podravan pichakarana ?",
+      "category": "mokka jokes"
     }
   ]
 }

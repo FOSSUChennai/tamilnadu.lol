@@ -20,7 +20,7 @@ export default function Hero() {
 
       <div className="order-2 flex items-center justify-center md:order-2">
         <div className="relative h-96 w-96 md:h-96 md:w-96">
-          <Image src="/olo.png" alt="Parrot green smiley" fill priority className="object-contain" />
+          <Image src="/olo.gif" alt="Parrot green smiley" fill priority className="object-contain" />
         </div>
       </div>
 
