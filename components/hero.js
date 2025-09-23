@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Hero() {
   return (
     <section className="relative mt-16 md:mt-0 mx-auto grid min-h-[70vh] w-full max-w-6xl grid-cols-1 items-center gap-8 px-4 py-8 md:min-h-[80vh] md:grid-cols-2 md:px-8 lg:px-16">
-      <div className="order-1 md:order-1">
+      <div className="order-1 z-100 md:order-1">
         <h1 className="text-left text-5xl font-normal leading-tight text-black md:text-6xl lg:text-7xl" style={{ fontFamily: 'Instrument Serif, var(--font-instrument-serif), serif' }}>
           All your kadi <span className='font-bold italic text-[#03b051]'>jokes</span> in one place
         </h1>
