@@ -2,7 +2,12 @@
 import HoverGlowCard from './HoverGlowCard'
 
 export default async function ContentPage() {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/jokes.json`, {
+  // Determine the jokes URL based on environment
+  const jokesUrl = process.env.NODE_ENV === 'development' 
+    ? `${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/jokes.json`
+    : 'https://raw.githubusercontent.com/FOSSUChennai/tamilnadu.lol/refs/heads/main/public/jokes.json'
+  
+  const response = await fetch(jokesUrl, {
     cache: 'no-store'
   })
   const data = await response.json()
