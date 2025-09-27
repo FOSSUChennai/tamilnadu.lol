@@ -19,6 +19,11 @@
       "name": "Justin Juby",
       "joke": "Me: 'dei unne paathe udane, ennaku 404 error varudh ra :)' Friend:'enne da, page not found eh ?' Me: 'Illada, ...words not found!' ",
       "category": "college"
+    },
+    {
+      "name": "Harish Anbalagan",
+      "joke": "New Contributor: *creates 5th duplicate issue about same bug* Maintainer 1: 'Dei, check existing issues first da!' Maintainer 2: 'Every day same issue, different person!' Maintainer 3: 'Avana konjam solli niruthungada dei!'",
+      "category": "tech"
     }
   ]
 }
