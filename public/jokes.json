@@ -21,6 +21,16 @@
       "category": "college"
     },
     {
+      "name": "Aathi",
+      "joke": "Dev 1: \"How do you leave Vim?\"\nDev 2: \"Escape is just a myth.\" 😅",
+      "category": "Dev"
+    },
+    {
+      "name": "Aathi",
+      "joke": "Dev 1: \"Why are you running rm -rf as root?\"\nDev 2: \"I like living on the edge… and sometimes deleting it.\" 😅",
+      "category": "family"
+    },
+    {
       "name": "Hariharasudhan",
       "joke": "Me: Mariyadhai theriyadha poo edhu ?",
       "category": "college" 
