@@ -9,15 +9,18 @@ tamilnadu.lol is a fun website that showcases hilarious Tanglish (Tamil + Englis
 ## 🚀 How to contribute (Super Easy!)
 
 ### Step 1: Fork this repository
+
 Click the "Fork" button at the top right of this page. This creates your own copy of the project!
 
 ### Step 2: Clone your fork
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/tamilnadu.lol.git
 cd tamilnadu.lol
 ```
 
 ### Step 3: Add your joke
+
 Open the file `public/jokes.json` and add your joke in this format:
 
 ```json
@@ -29,6 +32,7 @@ Open the file `public/jokes.json` and add your joke in this format:
 ```
 
 **Example:**
+
 ```json
 {
   "name": "Priya Chandran",
@@ -38,13 +42,16 @@ Open the file `public/jokes.json` and add your joke in this format:
 ```
 
 ### Step 4: Test locally (Optional but recommended)
+
 ```bash
 npm install
 npm run dev
 ```
+
 Visit http://localhost:3000 to see your joke in action!
 
 ### Step 5: Commit and push
+
 ```bash
 git add public/jokes.json
 git commit -m "Add hilarious joke by [Your Name]"
@@ -52,6 +59,7 @@ git push origin main
 ```
 
 ### Step 6: Create a Pull Request
+
 1. Go to your forked repository on GitHub
 2. Click "New Pull Request"
 3. Add a fun title like "Added a joke that'll make you go Aiyo! 😂"
@@ -60,6 +68,7 @@ git push origin main
 ## 📋 Joke Guidelines
 
 ### ✅ Good jokes should be:
+
 - **Family-friendly**: No inappropriate content
 - **Relatable**: Something Tamil people can connect with
 - **Tanglish mix**: Perfect blend of Tamil and English
@@ -67,6 +76,7 @@ git push origin main
 - **Fun**: Should make people smile or laugh
 
 ### ❌ Please avoid:
+
 - Offensive content about any community, religion, or person
 - Political jokes
 - Adult content
@@ -93,6 +103,7 @@ git push origin main
 ## 🏆 Recognition
 
 All contributors will be:
+
 - Listed in our README
 - Featured on the website (if you want!)
 - Part of our amazing community
@@ -127,5 +138,5 @@ This website was built to make contributing to open source as enjoyable as readi
 
 **Ready to make people laugh? Let's do this! 🚀**
 
-Happy contributing! 
-*-The tamilnadu.lol team* ❤️
+Happy contributing!
+_-The tamilnadu.lol team_ ❤️
