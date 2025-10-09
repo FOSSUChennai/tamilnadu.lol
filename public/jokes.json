@@ -49,6 +49,11 @@
       "name": "Swetha",
       "joke": "Startup founder strategy: Eat 5 Star, pitch everything!",
       "category": "startup"
+    },
+    {
+      "name": "FOSS-Techie",
+      "joke": "Which is the coolest alphabet in English? ‘B’. yennaa adhu ‘A”C’ naduvila irukku.",
+      "category": "tech"
     }
   ]
 }
