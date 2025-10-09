@@ -21,6 +21,11 @@
       "category": "college"
     },
     {
+      "name": "Athiyaman",
+      "joke": "Namma project ah cloud la save panrom, oru naal mazhai vantha, ella data-vum leak aagidatha?",
+      "category": "mokka jokes"
+    },
+    {
       "name": "Aathi",
       "joke": "Dev 1: \"How do you leave Vim?\"\nDev 2: \"Escape is just a myth.\" 😅",
       "category": "Dev"
