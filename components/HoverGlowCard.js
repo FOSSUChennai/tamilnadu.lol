@@ -1,8 +1,10 @@
 'use client';
 import React, { useState, useCallback } from 'react';
+import Reactions from "./reactions";
 
-export default function HoverGlowCard({ className = '', children }) {
+export default function HoverGlowCard({ className = '', children, jokeId }) {
   const [mousePosition, setMousePosition] = useState(null);
+
 
   const handleMouseMove = useCallback((e) => {
     const target = e.currentTarget;
@@ -22,6 +24,7 @@ export default function HoverGlowCard({ className = '', children }) {
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
+      {/* Glow effect overlay */}
       <div
         className="absolute inset-0 rounded-lg opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         style={{
@@ -34,7 +37,9 @@ export default function HoverGlowCard({ className = '', children }) {
         }}
       />
 
+      {/* Card container */}
       <div className="relative h-full rounded-lg border-2 border-[rgb(229,231,235)] bg-white p-4 shadow-sm transition-shadow hover:border-[rgb(255,255,255,0.5)] hover:shadow-md">
+        {/* Inner hover glow */}
         <div
           className="pointer-events-none absolute -inset-px rounded-lg opacity-0 transition-opacity duration-300 group-hover:opacity-50"
           style={{
@@ -44,12 +49,12 @@ export default function HoverGlowCard({ className = '', children }) {
           }}
         />
 
-        <div className="relative z-10 flex h-full flex-col">
+        {/* Card content */}
+        <div className="relative z-10 flex flex-col">
           {children}
+          <Reactions/>
         </div>
       </div>
     </div>
   );
 }
-
-
