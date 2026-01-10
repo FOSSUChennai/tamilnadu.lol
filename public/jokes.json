@@ -240,6 +240,11 @@
       "name":"Hariharapranav",
       "joke":"Thiruvalluvar 1330 kural ezhidhirundhaalum, avarala oru kuralil thaan paesa mudiyum",
       "category":"mokka jokes"
+    },
+    {
+      "name": "Mariselvam",
+      "joke": "There Are 10 Types Of People In The World; Those Who Understand Binary & Those Who Don't",
+      "category": "tech"
     }
   ]
 }
