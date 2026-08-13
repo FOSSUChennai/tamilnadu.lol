@@ -21,7 +21,7 @@ export default async function ContentPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {jokes.map((item, idx) => (
             <HoverGlowCard key={idx}>
-              <p className="text-sm text-foreground/90 leading-relaxed">{item.joke}</p>
+              <p className="text-sm text-foreground/90 leading-relaxed whitespace-pre-line">{item.joke}</p>
               <div className="mt-4 text-xs text-muted-foreground">— {item.name}</div>
             </HoverGlowCard>
           ))}
